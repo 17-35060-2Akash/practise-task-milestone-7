@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1 class="text-center py-5">Please Contact Me</h1>
+    <section class="container">
+        <div class="">
+            <h4>Name:</h4>
+            <input type="text" name="" id="name-field" class="ps-3 mt-1" placeholder="Name">
+            <button onclick="deleteName()" class="btn btn-outline-info ms-3" id="btn-name-delete">Delete Name</button>
+            <button onclick="saveName()" class="btn btn-outline-info ms-2" id="btn-name-send">Send Name</button>
+        </div>
+        <div class="">
+            <h4>Email:</h4>
+            <input type="text" name="" id="email-field" class="ps-3 mt-1" placeholder="Email">
+            <button onclick="deleteEmail()" class="btn btn-outline-info ms-3" id="btn-email-delete">Delete
+                Email</button>
+            <button onclick="saveEmail()" class="btn btn-outline-info ms-2" id="btn-email-send">Send Email</button>
+        </div>
+        <div class="">
+            <h4>Message:</h4>
+            <input type="text" name="" id="message-field" class="ps-3 py-3 mt-1" placeholder="Message">
+            <button onclick="deleteMessage()" class="btn btn-outline-info ms-3" id="btn-message-delete">Delete
+                Message</button>
+            <button onclick="saveMessage()" class="btn btn-outline-info ms-2" id="btn-message-send">Send
+                Message</button>
+        </div>
+
+    </section>
+    <div class="container p-5 text-center ms-5">
+        <button onclick="saveAsObject()" class="btn btn-outline-danger me-4 px-5" id="btn-send">Send </button>
+        <button class="btn btn-outline-danger ms-4 px-5" id="btn-reset">Reset</button>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/level-3.js"></script>
+</body>
+
+</html>
